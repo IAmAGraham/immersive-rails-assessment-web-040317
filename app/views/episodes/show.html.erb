@@ -1,0 +1,8 @@
+<h1>All Colbert Show Episodes </h1>
+
+  <h4> Episode: <%= @episode.number %></h4><br>
+  <h4> Aired On Date: <%= @episode.date %></h4><br>
+  <h4> Guests: <% @guests.each do |guest| %>
+      <%= guest.name %>
+      <%end%> </h4><br>
+      

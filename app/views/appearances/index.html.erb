@@ -1,0 +1,8 @@
+<h1>All Colbert Show Appearances</h1>
+
+<% @appearances.each do |appearance| %>
+  Guest Name: <%= appearance.guest.name %>
+  Episode Number: <%= appearance.episode.number %>
+  Rating: <%= appearance.rating %>
+
+<%end%>

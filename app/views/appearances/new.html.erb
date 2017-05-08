@@ -1,0 +1,13 @@
+<h1> Create Appearances on the Colbert Show</h1>
+
+<%= form_for (@appearance) do |f| %>
+  <%= f.label :guest_id %>
+  <%= f.number_field :guest_id %>
+  <%= f.label :episode_id %>
+  <%= f.number_field :episode_id %>
+  <%= f.label :rating %>
+  <%= f.number_field :rating %>
+
+  <%= f.submit "Submit Your New Appearance" %>
+
+  <%end%>
